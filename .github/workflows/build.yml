@@ -25,5 +25,5 @@ jobs:
                 cd "$pattern"
                 javac *.java
                 java -cp . Main
-                cd ../../
+                cd ../
                 done
