@@ -1,0 +1,49 @@
+# Compiled Java class files
+*.class
+
+# Bytecode
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+build/
+dist/
+nbdist/
+nbactions.xml
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Visual Studio Code
+.vscode/
+
+# Compiled Python files
+__pycache__/
+
+# Compiled C/C++ files
+*.o
+*.out
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log

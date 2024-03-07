@@ -1,0 +1,11 @@
+# Use an official OpenJDK image as a parent image
+FROM openjdk:11-jre-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the source code to the container
+COPY . /app
+
+# Set the default command - let the user manually compile and run Java files
+CMD ["/bin/bash"]
