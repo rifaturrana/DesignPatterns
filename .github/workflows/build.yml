@@ -22,7 +22,7 @@ jobs:
                 patterns=("FactoryPattern" "ObserverPattern")
         
                 for pattern in "${patterns[@]}"; do
-                cd "DesignPattern/$pattern"
+                cd "$pattern"
                 javac *.java
                 java -cp . Main
                 cd ../../
