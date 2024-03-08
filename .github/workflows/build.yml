@@ -19,7 +19,7 @@ jobs:
                 java-version: '11'
             - name: Build and run Java files
               run: |
-                patterns=("FactoryPattern" "ObserverPattern")
+                patterns=("FactoryPattern" "ObserverPattern","SingletonePattern","AbstractFactorypattern")
         
                 for pattern in "${patterns[@]}"; do
                 cd "$pattern"
