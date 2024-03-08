@@ -1,6 +1,6 @@
 
 public class Singletone  {
-    private static Singletone instance;
+    private static  Singletone instance;
     private Singletone(){}
     public static Singletone getInstance(){
         if (instance == null) {
