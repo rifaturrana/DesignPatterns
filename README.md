@@ -22,3 +22,40 @@ cd FactoryPattern
 javac Main.java
 java Main
 ```
+
+# Patterns
+
+### Creational
+1. Factory
+2. Abstract Factory
+3. Singleton
+4. Builder
+
+### Structural
+1. Adapter
+2. Bridge 
+3. Decorator
+4. Facade
+5. Proxy
+
+### Behavioral
+1. Observer
+
+
+## Singleton Pattern
+
+Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+![SingleTone](images/singletone.jpg)
+### Pros
+Controlled access to sole instance
+Reduced namespace
+Permits refinement of operations and representation
+Permits a variable number of instances
+Global Access Point: Provides a single, globally accessible instance of a class, simplifying access to shared resources or services throughout the application. This can be convenient for configuration settings, logging utilities, or resource management.
+Improved Efficiency: Can potentially improve efficiency in some cases by avoiding the overhead of creating multiple instances of the same object. This is especially relevant for resource-intensive objects.
+Enforced Single Instance: Ensures only one instance of a class exists, which can be beneficial in scenarios where maintaining a single state or configuration is crucial.
+### Cons
+Because Singletons introduce global state, unit testing can become challenging. Testing one component in isolation may be more complicated if it relies on a Singleton,
+Overusing the Singleton pattern can lead to poorly designed and unmaintainable code. 
+The Singleton pattern can make code less extensible.
